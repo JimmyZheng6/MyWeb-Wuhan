@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>江城风光 | 江城武汉</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: '微软雅黑', sans-serif; }
+        body { background: #f5f2eb; color: #333; padding-top: 70px; }
+        .nav { position: fixed; top: 0; width: 100%; background: rgba(255,255,255,0.9); padding: 15px 5%; box-shadow: 0 2px 10px rgba(0,0,0,0.05); z-index: 999; }
+        .nav a { text-decoration: none; color: #8B4513; font-size: 18px; margin: 0 20px; transition: all 0.3s; }
+        .nav a:hover { color: #e64a19; transform: scale(1.05); }
+        .container { max-width: 1200px; margin: 50px auto; padding: 0 20px; }
+        .section { background: #fff; border-radius: 12px; padding: 40px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); margin-bottom: 40px; }
+        h2 { font-family: '楷体', serif; font-size: 28px; color: #e64a19; margin-bottom: 20px; border-bottom: 2px solid #f5f2eb; padding-bottom: 10px; }
+        h3 { font-family: '楷体', serif; font-size: 22px; color: #8B4513; margin: 15px 0; }
+        /* 图文排版升级 */
+        .scenery-row { display: flex; gap: 30px; margin-top: 30px; flex-wrap: wrap; }
+        .scenery-col-left { flex: 1; min-width: 400px; }
+        .scenery-col-right { flex: 1; min-width: 400px; }
+        .scenery-img { width: 100%; height: 350px; object-fit: cover; border-radius: 8px; margin-bottom: 20px; transition: transform 0.3s; }
+        .scenery-img:hover { transform: scale(1.02); }
+        .scenery-text p { line-height: 1.8; margin-bottom: 15px; }
+        /* 季节标签 */
+        .season-tag { display: inline-block; background: #e0f7fa; color: #00695c; padding: 3px 10px; border-radius: 20px; font-size: 14px; margin-right: 8px; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="../index.html">返回首页</a>
+        <a href="food.html">美食记忆</a>
+        <a href="scenery.html">江城风光</a>
+        <a href="memory.html">我的时光</a>
+        <a href="culture.html">汉味文化</a>
+    </div>
+
+    <div class="container">
+        <!-- 两江四岸 -->
+        <div class="section">
+            <h2>两江四岸：武汉的灵魂脉络</h2>
+            <span class="season-tag">春季：江风拂面</span>
+            <span class="season-tag">夏季：夜游江景</span>
+            <span class="season-tag">秋季：江面澄澈</span>
+            <span class="season-tag">冬季：薄雾晨景</span>
+            <div class="scenery-row">
+                <div class="scenery-col-left">
+                    <img src="../image/黄鹤楼夜景.jpg" alt="黄鹤楼与长江" class="scenery-img">
+                    <h3>黄鹤楼：天下绝景</h3>
+                    <p>始建于三国时期的黄鹤楼，是“江南三大名楼”之一。现楼为1985年重建，高51.4米，共五层，飞檐翘角、黄瓦红柱，尽显古典建筑之美。登楼远眺，长江大桥如巨龙横跨江面，汉口、武昌两岸风光尽收眼底，“黄鹤一去不复返，白云千载空悠悠”的诗意在此刻具象化。</p>
+                </div>
+                <div class="scenery-col-right">
+                    <img src="../image/武汉江滩.jpg" alt="汉口江滩" class="scenery-img">
+                    <h3>汉口江滩：城市绿肺</h3>
+                    <p>全长7.8公里的汉口江滩，是武汉人最爱的休闲地。江滩内种植了近百种植物，春季樱花、桃花盛开，夏季绿树成荫，秋季芦苇飘荡，冬季芦苇荡泛着金黄。傍晚时分，江风习习，看轮渡穿梭于长江之上，岸边散步的人群、放风筝的孩童、弹唱的艺人，构成了最鲜活的江城生活图景。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 人文地标+生态公园 -->
+        <div class="section">
+            <h2>人文与自然：武汉的双面风情</h2>
+            <div class="scenery-row">
+                <div class="scenery-col-left">
+                    <img src="../image/b36999446d8b55f7.jpg_r_640x480x70_b9b2b999.jpg" alt="昙华林" class="scenery-img">
+                    <h3>昙华林：文艺与古早的碰撞</h3>
+                    <p>这条长仅1.2公里的老街，藏着武汉的慢生活。青石板路两旁，是百年老建筑与文艺小店的交融——哥特式的教堂、民国时期的公馆、网红咖啡馆、手作工坊错落有致。在这里，既能看到老武汉的烟火气，又能感受到年轻的文艺气息，适合慢慢闲逛、拍照打卡。</p>
+                </div>
+                <div class="scenery-col-right">
+                    <img src="../image/武汉东湖风景区绿道.jpg" alt="东湖" class="scenery-img">
+                    <h3>东湖：中国最大城中湖</h3>
+                    <p>东湖面积是西湖的6倍，水域辽阔，湖光山色相映成趣。东湖绿道全长101.98公里，是骑行、散步的绝佳选择；磨山景区内种植了大片樱花树，每年3-4月，樱花盛开时，如云似霞，吸引数百万游客前来；听涛景区则以人文景观为主，行吟阁、屈原纪念馆等景点承载着深厚的文化底蕴。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汉味文化 | 江城武汉</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: '微软雅黑', sans-serif; }
+        body { background: #f5f2eb; color: #333; padding-top: 70px; }
+        .nav { position: fixed; top: 0; width: 100%; background: rgba(255,255,255,0.9); padding: 15px 5%; box-shadow: 0 2px 10px rgba(0,0,0,0.05); z-index: 999; }
+        .nav a { text-decoration: none; color: #8B4513; font-size: 18px; margin: 0 20px; transition: all 0.3s; }
+        .nav a:hover { color: #e64a19; transform: scale(1.05); }
+        .container { max-width: 1200px; margin: 50px auto; padding: 0 20px; }
+        .section { background: #fff; border-radius: 12px; padding: 40px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); margin-bottom: 40px; }
+        h2 { font-family: '楷体', serif; font-size: 28px; color: #e64a19; margin-bottom: 20px; border-bottom: 2px solid #f5f2eb; padding-bottom: 10px; }
+        h3 { font-family: '楷体', serif; font-size: 22px; color: #8B4513; margin: 20px 0 15px; }
+        /* 模块排版 */
+        .culture-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 40px; margin-top: 30px; }
+        .culture-card { display: flex; flex-direction: column; gap: 20px; }
+        .culture-img { width: 100%; height: 300px; object-fit: cover; border-radius: 8px; transition: transform 0.3s; }
+        .culture-img:hover { transform: scale(1.02); }
+        .culture-text p { line-height: 1.8; margin-bottom: 15px; }
+        /* 特色元素 */
+        .dialect-box { background: #fff8e1; border-left: 4px solid #e64a19; padding: 15px; border-radius: 0 8px 8px 0; margin: 15px 0; }
+        .dialect-box span { color: #8B4513; font-weight: bold; margin-right: 8px; }
+        .heritage-tag { display: inline-block; background: #fce4ec; color: #ad1457; padding: 3px 10px; border-radius: 20px; font-size: 14px; margin-right: 8px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="../index.html">返回首页</a>
+        <a href="food.html">美食记忆</a>
+        <a href="scenery.html">江城风光</a>
+        <a href="memory.html">我的时光</a>
+        <a href="culture.html">汉味文化</a>
+    </div>
+
+    <div class="container">
+        <!-- 方言文化 -->
+        <div class="section">
+            <h2>武汉方言：泼辣又鲜活的“汉腔”</h2>
+            <p>武汉话属西南官话武天片，声调铿锵、语速明快，自带“豪爽感”，藏着武汉人直来直去的性格。它既保留了古汉语的痕迹，又融入了码头文化的江湖气，是汉味文化的“声音符号”。</p>
+            <div class="dialect-box">
+                <p><span>常用方言解析：</span>“您家”（nín jiā，尊称，比“你”更显亲切）、“过早”（guò zǎo，吃早餐）、“冇得”（mǎo dé，没有）、“硌硬”（gè yìng，讨厌、膈应）、“耍拉”（shuǎ lā，干脆、利落）、“个斑马”（口语感叹词，无恶意，表惊讶/吐槽）、“搞么斯”（gǎo mó sī，做什么）</p>
+            </div>
+            <p>武汉话的魅力在于“接地气”——菜市场里摊主喊的“新鲜的藕带，刚从湖里捞的！”，公交司机催的“快上快上，莫磨叽！”，邻里间闲聊的“您家屋里伢放假了冇？”，每一句都充满烟火气，直白又暖心。</p>
+        </div>
+
+        <!-- 民俗与非遗 -->
+        <div class="section">
+            <h2>民俗非遗：刻在骨子里的汉味传承</h2>
+            <div class="culture-grid">
+                <div class="culture-card">
+                    <img src="../image/W020210323827597481932.jpeg" alt="汉剧" class="culture-img">
+                    <div class="culture-text">
+                        <h3>汉剧：楚调汉腔，百年绝唱</h3>
+                        <span class="heritage-tag">国家级非遗</span>
+                        <span class="heritage-tag">四大声腔</span>
+                        <p>汉剧是湖北最具代表性的戏曲剧种，距今已有400多年历史，被誉为“京剧之母”（京剧的形成吸收了汉剧的唱腔与程式）。它以“西皮”“二黄”为主要声腔，角色分为生、旦、净、丑四大行，表演功底深厚，唱腔高亢婉转。</p>
+                        <p>经典剧目《宇宙锋》《二度梅》等，既保留了传统戏曲的典雅，又融入了武汉人的泼辣性情。如今，汉剧在武汉楚剧院、琴台大剧院等场所定期演出，老艺人带徒授艺，让“楚调汉腔”代代相传。</p>
+                    </div>
+                </div>
+                <div class="culture-card">
+                    <img src="../image/W020240515369753153669.jpg" alt="武汉剪纸" class="culture-img">
+                    <div class="culture-text">
+                        <h3>武汉剪纸：纸上的江城风情</h3>
+                        <span class="heritage-tag">省级非遗</span>
+                        <span class="heritage-tag">民间艺术</span>
+                        <p>武汉剪纸以“简洁明快、形神兼备”著称，多以江城风光、民俗生活、吉祥寓意为题材。艺人用一把剪刀，在红纸上寥寥数剪，就能剪出黄鹤楼、长江大桥、热干面、小龙虾等武汉元素，甚至能还原老武汉的码头场景、过早盛况。</p>
+                        <p>不同于北方剪纸的繁复，武汉剪纸更注重“写意”，线条流畅、构图饱满，既有艺术美感，又充满生活气息。如今，剪纸艺人走进校园、社区授课，让这门古老技艺在年轻人中焕发新生。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 码头文化与城市精神 -->
+        <div class="section">
+            <h2>码头文化：武汉人的精神底色</h2>
+            <div class="culture-grid">
+                <div class="culture-card">
+                    <img src="../image/fc16374f40768ddf3aa0da7ddfe09272.jpeg" alt="武汉码头" class="culture-img">
+                    <div class="culture-text">
+                        <h3>码头江湖：包容与豪爽的源头</h3>
+                        <p>武汉是“九省通衢”，长江、汉江在此交汇，自古就是水运枢纽。明清时期，汉口码头商船云集、人流如织，湖北、湖南、江西、四川等各地商人、船夫在此聚集，形成了独特的码头文化。</p>
+                        <p>码头生活讲究“讲义气、重实干”——船夫们同舟共济，养成了豪爽、直率的性格；五湖四海的人在此交融，让武汉文化兼具包容性与多元性。如今，码头虽已不再是交通核心，但“敢为人先、追求卓越”的码头精神，早已融入武汉人的血脉。</p>
+                    </div>
+                </div>
+                <div class="culture-card">
+                    <img src="../image/8ae7-iwtqvyk6739347.jpg" alt="武汉市民生活" class="culture-img">
+                    <div class="culture-text">
+                        <h3>汉味生活：烟火气里的人生哲学</h3>
+                        <p>武汉人的生活，藏着“松弛与奋进并存”的哲学。清晨“过早”时的从容，傍晚江滩散步的惬意，是对生活的热爱；而“不服周”（不服输）的口头禅，又透着武汉人的坚韧——从抗疫中的众志成城，到城市发展中的敢闯敢试，都离不开这份精神。</p>
+                        <p>老武汉的茶馆文化、夏夜的竹床阵、街头巷尾的闲聊打趣，都是汉味生活的缩影。这里没有精致的疏离，只有直白的热情，正如武汉的天气一样，热烈而真诚，让人忍不住亲近。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

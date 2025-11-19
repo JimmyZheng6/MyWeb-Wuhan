@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食记忆 | 江城武汉</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: '微软雅黑', sans-serif; }
+        body { background: #f5f2eb; color: #333; padding-top: 70px; }
+        .nav { position: fixed; top: 0; width: 100%; background: rgba(255,255,255,0.9); padding: 15px 5%; box-shadow: 0 2px 10px rgba(0,0,0,0.05); z-index: 999; }
+        .nav a { text-decoration: none; color: #8B4513; font-size: 18px; margin: 0 20px; transition: all 0.3s; }
+        .nav a:hover { color: #e64a19; transform: scale(1.05); }
+        .container { max-width: 1200px; margin: 50px auto; padding: 0 20px; }
+        .section { background: #fff; border-radius: 12px; padding: 40px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); margin-bottom: 40px; }
+        h2 { font-family: '楷体', serif; font-size: 28px; color: #e64a19; margin-bottom: 20px; border-bottom: 2px solid #f5f2eb; padding-bottom: 10px; }
+        h3 { font-family: '楷体', serif; font-size: 22px; color: #8B4513; margin: 15px 0; }
+        /* 图文排版升级 */
+        .food-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 30px; }
+        .food-card { display: flex; flex-direction: column; gap: 15px; }
+        .food-card img { width: 100%; height: 220px; object-fit: cover; border-radius: 8px; transition: transform 0.3s; }
+        .food-card img:hover { transform: scale(1.03); }
+        .food-text p { line-height: 1.8; margin-bottom: 10px; }
+        /* 特色标签 */
+        .tag { display: inline-block; background: #ffe4b5; color: #8B4513; padding: 3px 10px; border-radius: 20px; font-size: 14px; margin-right: 8px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="../index.html">返回首页</a>
+        <a href="food.html">美食记忆</a>
+        <a href="scenery.html">江城风光</a>
+        <a href="memory.html">我的时光</a>
+        <a href="culture.html">汉味文化</a>
+    </div>
+
+    <div class="container">
+        <!-- 过早专区 -->
+        <div class="section">
+            <h2>过早：武汉人的早餐仪式感</h2>
+            <span class="tag">烟火气</span>
+            <span class="tag">街头美味</span>
+            <span class="tag">百年传承</span>
+            <div class="food-grid">
+                <div class="food-card">
+                    <img src="../image/一盘正在制作的武汉热干面.jpg" alt="武汉热干面">
+                    <div class="food-text">
+                        <h3>热干面：江城灵魂</h3>
+                        <p>碱水面需用沸水烫至七成熟，沥干后淋上现磨芝麻酱（必须加少量香油调稀，否则结块），撒上萝卜丁、酸豆角、葱花、蒜末，最后滴几滴香醋提味。搅拌时芝麻香扑鼻，面条筋道爽滑，咸香中带着微酸，是武汉人刻在骨子里的味觉记忆。</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="../image/42a98226cffc1e178a82188e0dcbe103738da9774342.jpeg" alt="三鲜豆皮">
+                    <div class="food-text">
+                        <h3>三鲜豆皮：过早界的“硬菜”</h3>
+                        <p>绿豆与大米按比例磨浆，在平底锅摊成薄如蝉翼的豆皮，铺上提前蒸好的糯米，再码上肉丁、香菇丁、笋丁，淋上生抽调味，煎至两面金黄酥脆。外酥内软，糯米吸满肉香，一口下去层次丰富，是武汉过早的“精致代表”。</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="../image/0F6D243DF25497FCCE4BD22E004722C7689F3815_size138_w1080_h1626.jpeg" alt="面窝+糊汤粉">
+                    <div class="food-text">
+                        <h3>油条+鱼糊粉：经典搭配</h3>
+                        <p>油条炸得金黄焦脆，咬开蓬松带香；鱼糊粉用鲜鱼汤熬煮，米粉裹满稠白浓汤，撒上胡椒、葱花鲜辣开胃。吃时把油条掰段泡进糊汤，软韧吸满鲜汁，是武汉过早暖身管饱的经典组合。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 夜宵专区 -->
+        <div class="section">
+            <h2>夜宵：长江边的烟火江湖</h2>
+            <span class="tag">深夜食堂</span>
+            <span class="tag">辣爽过瘾</span>
+            <span class="tag">江湖风味</span>
+            <div class="food-grid">
+                <div class="food-card">
+                    <img src="../image/6453.jpg_wh300.jpg" alt="武汉小龙虾">
+                    <div class="food-text">
+                        <h3>油焖大虾：夏夜标配</h3>
+                        <p>武汉小龙虾以“油焖”为经典做法，选用鲜活的清水虾，剪去虾头、开背去线，用生姜、大蒜、干辣椒、花椒、豆瓣酱爆炒，加啤酒焖煮20分钟，让虾肉吸满浓郁酱汁。肉质Q弹紧实，辣中带麻、咸香回甘，配上冰镇啤酒，是夏夜江边的惬意时光。</p>
+                    </div>
+                </div>
+                <div class="food-card">
+                    <img src="../image/w700d1q75cms.jpg" alt="烧烤">
+                    <div class="food-text">
+                        <h3>街头烧烤：汉味烟火</h3>
+                        <p>武汉烧烤讲究“重油重酱”，五花肉、鸡翅、脆骨、土豆、藕片都是必点。烤串刷上秘制甜面酱，撒上孜然、辣椒面，烤至外皮焦香、内里多汁。尤其是烤藕片，脆嫩爽口，带着酱香，是武汉人夜宵的“隐藏王牌”。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
