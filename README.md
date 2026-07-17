@@ -92,16 +92,6 @@ No additional installation or dependencies are required.
 
 ---
 
-## 📈 Future Improvements
-
-- JavaScript interactions
-- Better mobile responsiveness
-- Dark mode
-- Interactive map
-- More animations
-
----
-
 ## 👨‍💻 Author
 
 **JimmyZheng6**
