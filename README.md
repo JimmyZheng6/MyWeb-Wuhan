@@ -21,6 +21,14 @@ https://jimmyzheng6.github.io/MyWeb-Wuhan/
 
 ---
 
+## 📸 Preview
+
+<p align="center">
+  <img src="assets/preview.png" alt="MyWeb-Wuhan Homepage" width="900">
+</p>
+
+---
+
 ## 📖 Overview
 
 **MyWeb-Wuhan** is a static website developed using **HTML5** and **CSS3** as the final project for the course **Computer Skills Practice for Freshman** at **Huazhong University of Science and Technology (HUST)**.
