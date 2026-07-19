@@ -20,6 +20,14 @@ https://jimmyzheng6.github.io/MyWeb-Wuhan/
 
 ---
 
+## 📸 项目预览
+
+<p align="center">
+  <img src="assets/preview.png" alt="MyWeb-Wuhan 首页预览" width="900">
+</p>
+
+---
+
 ## 📖 项目简介
 
 **MyWeb-Wuhan（江城武汉）** 是一个以武汉城市文化为主题的静态网页项目。
